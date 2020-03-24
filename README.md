@@ -5,6 +5,15 @@ Aplicativo de tarefas simples feito com javascript para aprender algo útil e bo
 
 
 ## O que foi utilizado ? 
- 1. Local storage (armazenamento de dados locais do navegador)
- 2. JSON
- 3. Criação de elementos pelo Javascript
+- [x] Local storage (armazenamento de dados locais do navegador)
+- [x] Criação de elementos pelo Javascript
+- [x] JSON
+
+
+## Getting started
+ 1. Você precisa ter o `NodeJS` instalado;
+ 2. Baixe o arquivo em `.zip ` e `extraia`;
+ 3. Na pasta do arquivo digite o comando: 
+ ```javascript
+ npx live-server
+ ```
