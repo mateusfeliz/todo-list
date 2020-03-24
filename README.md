@@ -13,7 +13,7 @@ Aplicativo de tarefas simples feito com javascript para aprender algo útil e bo
 ## Getting started
  1. Você precisa ter o `NodeJS` instalado;
  2. Baixe o arquivo em `.zip ` e `extraia`;
- 3. Na pasta do arquivo digite o comando: 
+ 3. Na pasta do arquivo com o `cmd` aberto, digite o comando: 
  ```javascript
  npx live-server
  ```
