@@ -25,11 +25,11 @@ function renderTodos() {
         var linkElement = document.createElement('a');
         var linkText = document.createTextNode(' Excluir')
 
-       
+
 
         todoElement.appendChild(todoText)
         listELement.appendChild(todoElement)
-        
+
         linkElement.append(linkText)
         todoElement.appendChild(linkElement)
         linkElement.setAttribute('href', '#!')
@@ -39,7 +39,7 @@ function renderTodos() {
 
     }
 
-    
+
 }
 
 
@@ -48,6 +48,7 @@ renderTodos()
 
 function addTodo(){
     var todoText = inputELement.value;
+
     todos.push(todoText)
     inputELement.value = '';
     saveToStorage()
@@ -55,7 +56,6 @@ function addTodo(){
 }
 
 buttonElement.onclick = addTodo;
-
 
 
 function deleteTodo(posicao){
@@ -68,4 +68,4 @@ function deleteTodo(posicao){
 
 function saveToStorage(){
     localStorage.setItem('list_todos',JSON.stringify(todos));
-}
+} 
