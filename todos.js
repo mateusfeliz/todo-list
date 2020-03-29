@@ -48,6 +48,10 @@ renderTodos()
 
 function addTodo(){
     var todoText = inputELement.value;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 43fae53fa945cfdfc8027481e58a3c14a965db74
     todos.push(todoText)
     inputELement.value = '';
     saveToStorage()
@@ -57,7 +61,10 @@ function addTodo(){
 buttonElement.onclick = addTodo;
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 43fae53fa945cfdfc8027481e58a3c14a965db74
 function deleteTodo(posicao){
     todos.splice(posicao,1) // na posicao 0 remove 1 item
     renderTodos() // renderiza para nao permanecer os itens antigos
